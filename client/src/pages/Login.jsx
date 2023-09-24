@@ -62,31 +62,6 @@ const Login = () => {
                 Continue with Google
               </p>
             </button>
-            <button
-              aria-label="Continue with github"
-              className="focus:outline-none  focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4"
-            >
-              <img
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sign_in-svg3.svg"
-                alt="github"
-              />
-              <p className="text-base font-medium ml-4 text-gray-700">
-                Continue with Github
-              </p>
-            </button>
-            <button
-              aria-label="Continue with twitter"
-              className="focus:outline-none  focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4"
-            >
-              <img
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/sign_in-svg4.svg"
-                alt="twitter"
-              />
-              <p className="text-base font-medium ml-4 text-gray-700">
-                Continue with Twitter
-              </p>
-            </button>
-
             <div className="mt-8 ">
               <button className="focus:ring-2 p-4 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full">
                 Create my account

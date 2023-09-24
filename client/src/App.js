@@ -10,7 +10,11 @@ import Orders from "./pages/Orders";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import MyOutfits from "./pages/MyOutfits";
+import { useStateValue } from "./context/StateProvider";
+import ProtectedRoute from "./pages/ProtectedRoute";
 const App = () => {
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <>
       <Router>
@@ -18,7 +22,14 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/chat" element={<Chat />} />
+          <Route
+            path="/chat"
+            element={
+              <ProtectedRoute>
+                <Chat />
+              </ProtectedRoute>
+            }
+          />
           <Route path="/about" element={<About />} />
           <Route path="/previousorders" element={<Orders />} />
           <Route path="/profile" element={<Profile />} />
