@@ -1,7 +1,6 @@
-# 🌟 Outfit Generator
+# 🌟 Outfitter - Your outfit generator
 
-![Outfit Generator](https://your-image-url.com)
-
+![Outfit Generator](https://github.com/MeetMulik/Fashion-Outfit-Generator/assets/89148021/45d1c027-de6b-4dd5-8c9f-88dedcc60ea5)
 
 The Fashion Outfit Generator is an innovative web application that leverages a stack of modern technologies, including React.js, Tailwind CSS, Node.js, Express.js, and Firebase, to offer users a seamless and engaging fashion experience. It allows users to effortlessly create stylish outfits with the assistance of ChatGPT, an AI language model. By chatting with ChatGPT and describing their preferences or occasions, users receive detailed outfit suggestions, complete with clothing items, accessories, and style tips. What sets this project apart is its integration of realistic vision technology, which generates images of the suggested outfits, helping users visualize their style choices more effectively. Additionally, the application includes robust user authentication via Firebase, enabling secure login and signup through Google accounts. Users can also keep track of their favorite outfits in the "My Outfits" section, ensuring a personalized and convenient fashion journey. With its user-friendly interface and cutting-edge AI capabilities, the AI-Powered Outfit Generator offers a unique and valuable tool for fashion enthusiasts looking to explore and refine their style effortlessly.
 
